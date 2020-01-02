@@ -42,7 +42,7 @@ def compute_value(node):
 
 if __name__ == '__main__':
     sample = [int(item) for item in '2 3 0 3 10 11 12 1 1 0 1 99 2 1 1 2'.split()]
-    full_input = [int(item) for item in open('input08').readlines()[0].split()]
+    full_input = [int(item) for item in open('data/input08').readlines()[0].split()]
     # sample part 1
     root, _ = parse(sample)
     total = sum_metadata(root)
