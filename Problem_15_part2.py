@@ -1,5 +1,5 @@
-from Problem_15_attempt2 import parse_input, battle_finished, move_and_attack, sum_hit_points, render
-from Problem_15_attempt2 import test_attack_move1, test_battle2, test_battle3, test_battle4, test_battle5
+from Problem_15_part1 import parse_input, battle_finished, move_and_attack, sum_hit_points, render
+from Problem_15_part1 import test_attack_move1, test_battle2, test_battle3, test_battle4, test_battle5
 
 
 def run_full_battle(lines, elve_attack_power):
